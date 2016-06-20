@@ -1,0 +1,14 @@
+Contextual modules 7.x-1.x-dev, xxxx-xx-xx (development release)
+--------------------------------------------------------------------------------
+
+- Fixed issue when Context triggered via CLI.
+- Fixed issue with AJAX.
+- Added indicator for enabled modules.
+- Improved module enable/disable behaviour.
+
+
+
+Contextual modules 7.x-1.0, 2013-03-25
+--------------------------------------------------------------------------------
+
+- Initial commit.

@@ -1,0 +1,21 @@
+name = Social Login 
+description = Social Login module - adds social login on a Drupal site!
+dependencies[] = socialloginandsocialshare_share
+package = LoginRadius Unified Social API
+core = 7.x
+files[] = socialloginandsocialshare.loginradius.inc
+files[] = socialloginandsocialshare.field.inc
+stylesheets[all][] = socialloginandsocialshare.css
+configure = admin/config/people/socialloginandsocialshare
+
+version = "7.x-4.3"
+core = "7.x"
+project = "sociallogin"
+
+
+; Information added by Drupal.org packaging script on 2014-01-09
+version = "7.x-4.4"
+core = "7.x"
+project = "sociallogin"
+datestamp = "1389245006"
+

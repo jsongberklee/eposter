@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* @file
+ * This file is a custom css for bcmlib_zurb subtheme
+ */
+
+/* Google font import */ 
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Marcellus+SC|Marcellus|Cinzel:400,700|Montaga|Julius+Sans+One|Belleza);
+/* USAGE
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Marcellus SC', serif;
+font-family: 'Marcellus', serif; 				topbar, tab button
+font-family: 'Cinzel', serif;
+font-family: 'Montaga', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Belleza', sans-serif;
+font-family: "Lato",​ Arial,​ Helvetica,​ sans-serif; <- Berklee main
+*/
+ 
+/*
+#C22326, #B80028 : Site title text
+#616A7F : topbar, button normal
+#2D3956 : topbar hover, button hover
+#ED1C24 : Berklee logo box color
+*/
+
+body{font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;}
+body.front{ background: #111; height:2000px; color:#aaa;}
+body.front footer.l-footer.panel.row{background: #111;  border-color: #111;}
+body.front footer.l-footer.panel.row .copyright{display: none;}
+div.krumo-root {color:#000;}
+div.views-row{margin:1em;}
+
+div.view-id-eposter_admin table{width:100%}
+div.view-id-eposter_admin table tbody td{vertical-align: top;}
+div.view-id-eposter_admin table tbody td.views-field.views-field-field-eposter{width: 200px;}
+div.view-id-eposter_admin table tbody td.views-field.views-field-edit-node{width:40px}
+
+/* img{border: 1px solid #aaa !important;} */
+.view-eposter-list .views-field-title, .view-eposter-list .views-field-field-date{font-size: .85em;}
